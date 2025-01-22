@@ -1,0 +1,744 @@
+/* PC、スマホ共通スタイル */
+body {
+    font-family: "Source Sans Pro" , "Hiragino Kaku Gothic ProN" , Meyryo, Arial, sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+/* bodyの余白をなくす */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ナビゲーションメニュー */
+.home {
+    display: flex;
+    margin-left: 30px;
+    padding: 20px 0 20px 0;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    max-width: 960px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+.subtitle {
+    margin-top: -60px;
+    margin-left: 550px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+#menu {
+    text-align:right;
+    margin-top: -50px;
+    margin-right: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+/* メイン画像 */
+.mainpic {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+
+/* 事業内容 */
+#事業内容 {
+    text-align: center;
+    letter-spacing: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+.mainpic2 {
+    max-width: 40%;
+    position: relative;
+    top: 1px;
+    left: 50px;
+}
+
+.事業内容 p {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 970px;
+    right: 350px;
+}
+
+/* 企業情報 */
+#企業情報 {
+    text-align: center;
+    letter-spacing: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+.mainpic3 {
+    max-width: 40%;
+    position: relative;
+    top: 1px;
+    left: 50px;
+}
+
+.企業情報 p {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 1560px;
+    right: 330px;
+}
+
+/* お問合せ */
+#お問合せ {
+    text-align: center;
+    letter-spacing: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+.お問合せ p {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 2140px;
+    left: 750px;
+}
+
+.mainpic4 {
+    max-width: 40%;
+    position: relative;
+    top: 1px;
+    left: 50px;
+}
+
+#contact {
+    margin: 80px auto 80px auto;
+    position: relative;
+    left: 350px;
+}
+
+/* 外枠 */
+#contact > form > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+/* 左列の見出し */
+.contact-heading {
+    width: 240px;
+    align-self: center;
+}
+
+/* 見出しのラベル */
+.contact-label {
+    font-weight: bold;
+}
+
+/* 必須 */
+.contact-span {
+    color: #ce2222;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+}
+
+/* テキストボックス */
+.contact-textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+}
+
+/* お問い合わせ内容のテキストエリア */
+.contact-textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+}
+
+/* 採用情報 */
+#採用情報 {
+    text-align: center;
+    letter-spacing: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+.mainpic5 {
+    max-width: 40%;
+    position: relative;
+    top: 1px;
+    left: 50px;
+}
+
+.採用情報 p {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 2710px;
+    left: 750px;
+}
+
+/* ACCESS */
+#ACCESS {
+    text-align: center;
+    letter-spacing: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;
+}
+
+.mainpic6 {
+    max-width: 40%;
+    position: relative;
+    top: 1px;
+    left: 50px;
+}
+
+/* もっと見るボタン */
+.btn {
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 760px;
+    bottom: 70px;
+    width: 15em;
+    height:5em;
+  }
+
+  .btn-s {
+    display: none
+  }
+
+/* フッター */
+footer {
+    background-color: orange;
+}
+
+.footertitle {
+    position: relative;
+    left: 310px;
+    top: 70px;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif; 
+}
+
+.company {
+    position: relative;
+    left: 300px;
+    top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif; 
+}
+
+#copyright {
+    position: relative;
+    left: 500px;
+    top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    font-family: "Noto Sans JP" , sans-serif;   
+}
+
+table {
+    position: relative;
+    bottom: 15px;
+    left: 800px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+table a {
+    color: black;
+    font-weight: bold;
+}
+
+/* 事業内容リンク*/
+.mainpic7 {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+#catchphrase {
+    position: relative;
+    left: 290px;
+    font-size: 40px;
+}
+
+.introduction {
+    position: relative;
+    bottom: 30px;
+    left: 290px;
+}
+
+.mainpic8 {
+    max-width: 40%;
+    position: relative;
+    top: 1px;
+    left: 700px;
+}
+
+.heading6 {
+    position: relative;
+    bottom: 390px;
+    left: 200px;
+    font-size: 30px;
+    text-decoration:underline double blue
+}
+
+.heading3 {
+    position: relative;
+    bottom: 390px;
+    left: 200px;
+    font-size: 30px;  
+}
+
+.mainpic9 {
+    max-width: 40%;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+}
+
+.heading4 {
+    position: relative;
+    bottom: 550px;
+    left: 700px;
+    font-size: 30px;
+    text-decoration:underline double blue
+}
+
+.heading5 {
+    position: relative;
+    bottom: 550px;
+    left: 700px;
+    font-size: 30px;
+}
+
+/* 企業情報リンク*/
+.mainpic10 {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+#Companyinformation {
+    position: relative;
+    left: 330px;
+    font-size: 40px;
+    letter-spacing :1em
+}
+
+.table2 tr td:nth-child(1) {     /* 1列目の td の設定 */
+	width: 100px;                /* td の幅 */
+	padding: 0 2em 0.5em 0;      /* 内側の余白の大きさ (上、右、下、左)。 右側に余白を入れる。*/
+	text-align-last: justify;    /* 均等割り付けにする */
+}
+
+.table2 {
+    position: relative;
+    left: 350px; 
+    font-weight: bold;           /* 太い文字にする */
+    font-size: 25px;
+}
+
+/* 採用情報リンク*/
+.mainpic11 {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+#Recruitmentinformation.html {
+    position: relative;
+    left: 330px;
+    font-size: 40px;
+    letter-spacing :1em
+}
+
+.table3 tr td:nth-child(1) {     /* 1列目の td の設定 */
+	width: 100px;                /* td の幅 */
+	padding: 0 2em 0.5em 0;      /* 内側の余白の大きさ (上、右、下、左)。 右側に余白を入れる。*/
+	text-align-last: justify;    /* 均等割り付けにする */
+}
+
+.table3 {
+    position: relative;
+    left: 400px; 
+    font-weight: bold;           /* 太い文字にする */
+    font-size: 25px;
+}
+
+/*====================
+トップページ戻るボタン
+=====================*/
+#page-top a {
+    background:black; 
+    text-decoration: none;
+    color:#FFFFFF; 
+    width: 60px;
+    padding: 28px 5px;
+    text-align: center;
+    display: block;
+    border-radius: 90px;
+    opacity: 0.9;
+    transition: all .3s ease;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 1250px;
+  }
+  #page-top a:hover {
+    text-decoration: none;
+    opacity: .5;
+  }
+/*====================
+スマートフォン用のスタイル
+=====================*/
+
+@media screen and (max-width: 767px) {
+    /* ここに通常のCSSを書きます。以下は一例です */
+    a.home {
+         font-size: 150%;
+         position: relative;
+         left: 30px;
+         margin-right: 0px;
+         padding-right: 0px;
+        }
+
+    p.subtitle {
+         margin: 0px 0px 10px 30px;
+         position: absolute;
+         top: 50px;
+         left: 30px;
+         font-size: 70%;
+        }
+    #menu {
+        font-size: 50%;
+        text-align:center;
+        padding-top: 40px;
+        
+    }
+    img.mainpic {
+        margin-left: 40px;
+    }
+
+    h1#事業内容 {
+        font-size: 120%;
+    }
+
+    h1#企業情報 {
+        font-size: 120%;
+    }
+
+    h1#お問合せ {
+        font-size: 120%;
+    }
+
+    h1#採用情報 {
+        font-size: 120%;
+    }
+
+    p.heading2 {
+        font-size: 80%;
+        position: absolute;
+        top: 570px;
+        left: 210px;
+        white-space: nowrap;
+        line-break:normal;
+    }
+
+    p.heading1 {
+        font-size: 80%;
+        position: absolute;
+        top: 365px;
+        left: 210px;
+        white-space: nowrap;
+    }
+
+    h1#ACCESS {
+        font-size: 120%;
+    }
+
+    h1.footertitle {
+        position: relative;
+        left: 60px;
+        top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+        font-family: "Noto Sans JP" , sans-serif; 
+    }
+
+    p.company {
+        font-size: 70%;
+        position: relative;
+        top: 5px;
+        left: 60px;
+    }
+
+    table {
+        position: relative;
+        top: -10px;
+        left: 60px;
+        font-size: 10px;
+    }
+    
+    span#copyright {
+        position: relative;
+        top: -10px;
+        left: 60px;
+        font-size: 10px;
+    }
+
+    /* 事業内容 */
+    img.mainpic7 {
+        margin-left: 40px; 
+    }
+
+    h1#catchphrase {
+        font-size: 20px;
+        position: relative;
+        left: 20px;
+    }
+
+    h2.introduction {
+        font-size: 12px;
+        top: -20px;
+        left: 20px;
+    }
+
+    p.heading6 {
+        font-size: 12px;
+        position: absolute;
+        top: 370px;
+        left: 20px;
+    }
+
+    p.heading3 {
+        font-size: 12px;
+        position: absolute;
+        top: 400px;
+        left: 20px;  
+    }
+    
+    img.mainpic8 {
+        position: relative;
+        top: -20px;
+        left: 200px; 
+    }
+
+    img.mainpic9 {
+        position: relative;
+        top: 0px;
+        left: 20px; 
+    }
+
+    p.heading4 {
+        font-size: 12px;
+        position: absolute;
+        top: 500px;
+        left: 200px;  
+    }
+
+    p.heading5 {
+        font-size: 12px;
+        position: absolute;
+        top: 525px;
+        left: 200px;  
+    }
+
+    .br-sp {
+        display:none;
+    }
+
+    /* 企業情報 */
+    img.mainpic10 {
+        margin-left: 40px;    
+    }
+    
+    h1#Companyinformation {
+        font-size: 20px;
+        position: relative;
+        left: 45px;    
+    }
+
+    table.table2 {
+        font-size: 10px;
+        position: relative;
+        left: 70px;
+        border-spacing: 5px;
+    }
+
+    /* お問合せ */
+    h2.index-h2 {
+        position: relative;
+        left: 120px;
+    }
+
+    h3.index-h3 {
+        position: relative;
+        left: 120px;
+    }
+
+    article.totalcontact {
+        font-size: 10px;
+        position: relative;
+        top: -60px;
+        right: 330px;
+    }
+
+    p.heading8 {
+        font-size: 80%;
+        position: absolute;
+        top: 780px;
+        left: 210px;
+        white-space: nowrap;
+    }
+
+    /* 採用情報 */
+    img.mainpic11 {
+        margin-left: 40px;    
+    }
+
+    article.totalcontact {
+        font-size: 10px;
+        position: relative;
+        top: -60px;
+        right: 330px;
+    }
+
+    table.table3 {
+        font-size: 10px;
+        position: relative;
+        top: 50px;
+        left: 400px;
+        border-spacing: 5px;
+    }
+
+    p.heading7 {
+        font-size: 80%;
+        position: absolute;
+        top: 980px;
+        left: 210px;
+        white-space: nowrap;
+    }
+
+    
+
+/*====================
+トップページ戻るボタン
+=====================*/
+    #page-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 14px;
+        line-height: 1;
+        z-index: 99;
+      }
+
+      #page-top a {
+        background:black; 
+        text-decoration: none;
+        color:#FFFFFF; 
+        width: 40px;
+        height: 0px;
+        padding: 28px 5px;
+        text-align: center;
+        line-height: 5px;
+        display: block;
+        border-radius: 90px;
+        opacity: 0.9;
+        transition: all .3s ease;
+        position: relative;
+        left: 10px;
+      }
+
+      #page-top a:hover {
+        text-decoration: none;
+        opacity: .5;
+      }
+
+      /*====================
+       もっと見るボタン
+       =====================*/
+
+      .btn-s {
+        border-radius: 5px;
+        background-color: lightblue;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        position: relative;
+        left: 220px;
+        bottom: 47px;
+        display: block
+      }
+
+      .btn {
+        display: none;
+      }
+
+      }
+
+
+    
